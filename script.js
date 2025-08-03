@@ -3,5 +3,5 @@ function firstChar(text) {
   return text === '' ? '' : text[0];
 }
 
-// const text = prompt("Enter text:");
-alert(firstChar(text));
+const input = prompt("Enter text:");
+alert(firstChar(input));
